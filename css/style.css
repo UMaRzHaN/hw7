@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .card {
+    width: 1680px;
+    height: 840px;
+  
+    padding: 20px;
+  
+    background-color: #2C3639;
+  }
+  .title{
+    text-transform: uppercase;
+    color: coral;
+    font-size: 25px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .img{
+    float: right;
+    background-repeat: no-repeat;
+    background-image: url(../img/History.jpeg);
+    
+    width: 600px;
+    height: 800px;
+  }
+  .text{
+padding-top: 20px;
+height: 450px;
+width: 1020px;
+
+    word-break: break-all;
+    color: brown;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  .p{
+    font-weight: bolder;
+    font-style: italic;
+    color: #A27B5C;
+    padding: 300px 0 0 100px;
+    font-size: 20px;
+  }
